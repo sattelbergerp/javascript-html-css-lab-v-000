@@ -4,10 +4,32 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+    .fakeimg{
+      width: 64px;
+      height: 64px;
+      background-color: black;
+    }
+    .muted{
+      color: #999;
+    }
     </style>
   </head>
   <body>
-
+    <div style="width: 600px; margin: 15px auto;">
+      <div class="tweet flex border-bottom pb1 pt1">
+        <div class="fakeimg"></div>
+        <div class="flex-auto ml2">
+          <p class="m0 mb1"><strong>User Name</strong> <span class=muted><span>@user</span> - <span>Jun 10</span></span></p>
+          <p class="m0">Content<br>Line 2</p>
+        </div>
+      </div>
+      <div class="tweet flex pb1 pt1">
+        <div class="fakeimg"></div>
+        <div class="flex-auto ml2">
+          <p class="m0 mb1"><strong>User Name</strong> <span class=muted><span>@user</span> - <span>Jun 10</span></span></p>
+          <p class="m0">Content<br>Line 2</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
